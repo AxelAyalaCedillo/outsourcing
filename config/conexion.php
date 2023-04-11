@@ -7,7 +7,7 @@ class Conectar{
 
     protected function Conexion(){
         try{
-$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=outsourcing","root","rootroot");
+$conectar = $this->dbh = new PDO("mysql:local=http://192.9.155.64/;dbname=outsourcing","root","rootroot");
             return $conectar;
         } catch (Exception $e){
             print "Error DB!: " . $e->getMessage() . "<br/>";
