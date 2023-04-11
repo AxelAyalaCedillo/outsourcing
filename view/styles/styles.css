@@ -1,0 +1,21 @@
+.convocatoria{
+    position: relative !important;
+    margin-top: 2% !important;
+    padding: 0 !important;
+    margin-right: 2% !important;
+    margin-left: 5% !important;
+}
+
+.fotito{
+    border: 1px solid ;
+    padding: 5px ;
+    width: 50%;
+    height: 50%;
+}
+
+.fotos{
+    border: 1px solid ;
+    padding: 5px ;
+    width: 400px;
+    height: 255px;
+}
