@@ -6,7 +6,7 @@
 
         if($tam == 1){
                 $consulta = "SELECT aspirante.id, aspirante.nombre, 
-                aspirante.apellido, aspirante.foto, examen_aspirante.resultado
+                aspirante.apellido, examen_aspirante.resultado
                 FROM aspirante, convocatoria_aspirante,examen_aspirante 
                 where convocatoria_aspirante.convocatoria = '$convocatoria' AND
                 aspirante.id = convocatoria_aspirante.aspirante AND
@@ -16,7 +16,7 @@
         
         }else if($tam == 0){
                 $consulta = "SELECT aspirante.id, aspirante.nombre, 
-                aspirante.apellido, aspirante.foto, examen_aspirante.resultado
+                aspirante.apellido, examen_aspirante.resultado
                 FROM aspirante, convocatoria_aspirante,examen_aspirante 
                 where convocatoria_aspirante.convocatoria = '$convocatoria' AND
                 aspirante.id = convocatoria_aspirante.aspirante AND
