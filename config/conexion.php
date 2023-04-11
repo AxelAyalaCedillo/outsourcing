@@ -20,7 +20,7 @@ $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=outsourcing","roo
     }
 
     public function ruta(){
-        return "http://localhost/outsourcing/";
+        return "http://192.9.155.64//outsourcing/";
     }
 }
 
